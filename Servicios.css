@@ -1,0 +1,246 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url("https://st2.depositphotos.com/1106005/8379/i/450/depositphotos_83799084-stock-photo-black-and-white-doggy-tile.jpg");
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/*logo principal y Navegacion*/
+div.navegacion {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    z-index: 20;
+    opacity: 0.9;
+}
+
+div.menu {
+    display: flex;
+    /* background-color: violet; */
+    width: 90%;
+    justify-content: space-between;
+}
+
+div.menuIzquierdo {
+    /* background-color: aqua; */
+    width: 85%;
+    align-items: center;
+}
+
+div.menuDerecho {
+    /* background-color: chocolate; */
+    width: 20%;
+}
+
+
+Div ul.opcionesIzquierdo,
+ul.opcionesDerecho {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+}
+
+Div .opcionesIzquierdo li:hover,
+.opcionesDerecho li:hover {
+    transform: scale(1.1);
+}
+
+Div ul.opcionesIzquierdo li a,
+ul.opcionesDerecho li a {
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+    cursor: default;
+    transition: all 197ms ease;
+}
+
+Div .opcionesIzquierdo li a:hover,
+.opcionesDerecho li a:hover {
+    color: #ff0000;
+}
+
+div.logo {
+    width: 15%;
+    cursor: pointer;
+}
+
+div .logo img {
+    height: 60px;
+    width: auto;
+}
+
+
+
+
+
+img {
+    width: 100%;
+}
+
+ul.opcionesIzquierdo,
+ul.opcionesDerecho {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+
+}
+
+/* imagenes del body */
+
+div.fotogeneral {
+    transition-timing-function: ease-in-out
+}
+
+.subtitulo {
+    font-size: 60px;
+    position: relative;
+    top: 200px;
+    left: 40px;
+    text-shadow: 0px 0px 10px rgb(146, 45, 45),
+        0px 0px 70px rgb(117, 48, 48),
+        0px 0px 100px rgb(173, 66, 66);
+    text-align: initial;
+}
+
+div.fotoxd {
+    display: grid;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+div.fotogeneral {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 5px;
+    background-color: white;
+    opacity: 0.95;
+}
+
+div.fotogeneral div {
+    width: 33%;
+    padding: 20px;
+    text-align: center;
+}
+
+.fotogeneral img {
+    margin: 5px;
+    width: 100%;
+}
+
+div.fotogeneral div img {
+    opacity: 1;
+    transition: all 1s ease;
+}
+
+div.fotogeneral div img:hover {
+    filter: grayscale(100%);
+    transform: rotate(10deg);
+}
+
+button {
+    margin: 10px 0px;
+    background-color: dimgrey;
+    color: white;
+    border: 2px solid dimgray;
+    font-size: 18px;
+    padding: 5px 10px;
+    transition: all 1s ease;
+}
+
+button:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 0px 30px crimson;
+    border-radius: 20px;
+}
+
+h3 {
+    color: brown;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: large;
+}
+
+h4 {
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+p {
+    color: #ffffff;
+    font-size: 15px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+/* texto */
+h2 {
+    margin-top: 15px;
+    text-align: center;
+    font-size: 50px;
+    color: #ffffff;
+    margin-bottom: 10px;
+    text-shadow: 0px 0px 10px rgb(0, 0, 0),
+        0px 0px 10px rgb(0, 0, 0);
+}
+
+
+/* Botones */
+button {
+    background-color: #ff0000;
+    border: none;
+    padding: 10px 20px;
+    font-size: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    cursor: default;
+    transition: all 400ms ease;
+}
+
+button:hover {
+    background-color: #bd2929f3;
+}
+
+button a {
+    color: white;
+}
+
+div.redesSociales a.Flecha {
+    margin-left: 0px;
+}
+
+/* Pie de página */
+div.redesSociales {
+    background-color: brown;
+    text-align: center;
+    padding: 30px;
+    margin-top: 30px;
+    border-radius: 20px 20px 0px 0px;
+}
+
+div.redesSociales a {
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    text-decoration: none;
+    margin: 50px;
+}
+
+#botonarriba {
+    width: 40px;
+    height: 40px;
+    color: white;
+    display: flex;
+    position: fixed;
+    bottom: 20px;
+    left: 1250px;
+    cursor: pointer;
+    border-radius: 50%;
+    opacity: 0.85;
+}

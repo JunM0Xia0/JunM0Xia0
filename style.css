@@ -1,0 +1,226 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url("https://st2.depositphotos.com/1106005/8379/i/450/depositphotos_83799084-stock-photo-black-and-white-doggy-tile.jpg");
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/*logo principal y Navegacion*/
+div.navegacion {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    z-index: 20;
+    opacity: 0.9;
+}
+
+div.menu {
+    display: flex;
+    /* background-color: violet; */
+    width: 90%;
+    justify-content: space-between;
+}
+
+div.menuIzquierdo {
+    /* background-color: aqua; */
+    width: 85%;
+    align-items: center;
+}
+
+div.menuDerecho {
+    /* background-color: chocolate; */
+    width: 20%;
+}
+
+
+Div ul.opcionesIzquierdo,
+ul.opcionesDerecho {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+}
+
+Div .opcionesIzquierdo li:hover,
+.opcionesDerecho li:hover {
+    transform: scale(1.1);
+}
+
+Div ul.opcionesIzquierdo li a,
+ul.opcionesDerecho li a {
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+    cursor: default;
+    transition: all 197ms ease;
+}
+
+Div .opcionesIzquierdo li a:hover,
+.opcionesDerecho li a:hover {
+    color: #ff0000;
+}
+
+div.logo {
+    width: 15%;
+    cursor: pointer;
+}
+
+div .logo img {
+    height: 60px;
+    width: auto;
+}
+
+div.imagenFondo {
+    background-image: url(/imagenes/Presentación.jpeg);
+    height: 700px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.subtitulo {
+    font-size: 30px;
+    position: relative;
+    top: 250px;
+    /* left: 220px; */
+    text-shadow: 0px 0px 10px rgb(0, 0, 0),
+        0px 0px 20px rgb(32, 31, 31),
+        0px 0px 30px #393737;
+}
+
+.subtitulo_name {
+    font-size: 90px;
+    position: relative;
+    top: 250px;
+    /* left: 220px; */
+    text-shadow: 0px 0px 10px rgb(0, 0, 0),
+        0px 0px 20px rgb(32, 31, 31),
+        0px 0px 30px #393737;
+}
+
+div.imagenFondo button {
+    background-color: orangered;
+    border: none;
+    padding: 10px 20px;
+    font-size: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    cursor: default;
+    transition: all 400ms ease;
+    box-shadow: 0px 0px 10px rgb(32, 31, 31),
+        0px 0px 20px rgb(32, 31, 31),
+        0px 0px 30px #393737;
+
+}
+
+div.imagenFondo button:hover {
+    background-color: brown;
+
+}
+
+div.imagenFondo button a {
+    color: white;
+    text-decoration-line: none;
+}
+
+img {
+    width: 100%;
+}
+
+ul.opcionesIzquierdo,
+ul.opcionesDerecho {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+
+}
+
+/* imagenes del body */
+
+div.Popular_container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+div.Popular_container div {
+    width: 32%;
+    padding: 10px;
+    border-style: outset;
+    border-width: 1px;
+    margin: 0px 0px 10px 10px;
+    background-color: #fff;
+}
+
+/* texto */
+h2 {
+    margin-top: 15px;
+    text-align: center;
+    font-size: 50px;
+    color: #ffffff;
+    margin-bottom: 10px;
+    text-shadow: 0px 0px 10px rgb(0, 0, 0),
+        0px 0px 10px rgb(0, 0, 0);
+}
+
+p{
+    color: #ffffff;
+    font-size: 15px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+/* Botones */
+button {
+    background-color: #ff0000;
+    border: none;
+    padding: 10px 20px;
+    font-size: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    cursor: default;
+    transition: all 400ms ease;
+}
+
+button:hover {
+    background-color: #bd2929f3;
+}
+
+button a {
+    color: white;
+}
+
+/* Pie de página */
+div.redesSociales {
+    background-color: brown;
+    text-align: center;
+    padding: 30px;
+    margin-top: 30px;
+    border-radius: 20px 20px 0px 0px;
+}
+
+div.redesSociales a {
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    text-decoration: none;
+    margin: 50px;
+}
+
+#botonarriba{
+    width: 40px;
+    height: 40px;
+    color: white;
+    display: flex;
+    position: fixed;
+    bottom: 20px;
+    left: 1250px;
+    cursor: pointer;
+    border-radius: 50%;
+    opacity: 0.85;
+}

@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/png" href="/imagenes/Logo.jpeg">
+    <title>Nosotros|Vetipets</title>
+    <link rel="stylesheet" href="Nosotros.css">
+</head>
+
+<body>
+    <header>
+        <div>
+            <div class="navegacion">
+                <div class="logo">
+                    <a href="index.html"><img src="/imagenes/Logo.jpeg" href="index.html" alt="LogoPri"></a>
+                </div>
+                <div class="menu">
+                    <div class="menuIzquierdo">
+                        <ul class="opcionesIzquierdo">
+                            <li>
+                                <a href="index.html">Inicio</a>
+                            </li>
+                            <li>
+                                <a href="Nosotros.html">Nosotros</a>
+                            </li>
+                            <li>
+                                <a href="Servicios.html">Servicios</a>
+                            </li>
+                            <li>
+                                <a href="Contacto.html">Contacto</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="menuDerecho">
+                    <ul class="opcionesDerecho">
+                        <li>
+                            <a href="Registro.htm"><ion-icon name="person-circle-outline"></ion-icon></a>
+                        </li>
+                        <li>
+                            <a href="Iniciarsesion.html"><ion-icon name="cart-outline"></ion-icon></a>
+                        </li>
+                        <li>
+                            <a href="https://es-la.facebook.com/login/device-based/regular/login/"><ion-icon
+                                    name="logo-facebook"></ion-icon></a>
+                        </li>
+                        <li>
+                            <a
+                                href="https://www.instagram.com/accounts/login/?next=%2Fhaoyii%2F&source=private_profile&locale=es_ES"><ion-icon
+                                    name="logo-instagram"></ion-icon></a>
+                        </li>
+                        <li>
+                            <a href="https://www.youtube.com"><ion-icon name="logo-youtube"></ion-icon></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section id="principio">
+        <div class="fonsobre">
+            <h1 class="subtitulo_name">Sobre nosotros </h1>
+        </div>
+        <div class="fondebajo">
+            <p class="subtitulo">Somos un equipo de profesionales de primer nivel enfocados en llevar medicina de
+                calidad mundial a nuestros
+                pacientes, con un servicio de atención de primera a los tutores de mascotas, centrado en un soporte
+                continuo
+                y
+                asesoramiento personalizado.
+                Nuestro enfoque en educación e investigación constante como profesionales nos caracterizan y diferencian
+                ubicándonos como referentes a nivel internacional.
+                Nuestro equipo es liderado por el Dr. Kamilo Rivera, organizador de importantes congresos veterinarios a
+                nivel
+                nacional e internacional, con amplia experiencia en la innovación en pro del crecimiento de la medicina
+                veterinaria en el Perú.</p>
+        </div>
+        <div class="division">
+            <div>
+                <h3>Vision</h3>
+                <p> Brindar atención de calidad a los animales, promoviendo su salud y bienestar mediante servicios
+                    veterinarios
+                    accesibles a través de un equipo profesional comprometido con tu mascota</p>
+                <img src="https://media.istockphoto.com/id/1163285729/es/vector/dise%C3%B1o-de-ilustraci%C3%B3n-vectorial-de-s%C3%ADmbolos-oculares.jpg?s=170667a&w=0&k=20&c=PYguGH--KLO0mySb-f_oq0OASApvr7avVkpuVEhLxB0="
+                    alt="Visión">
+            </div>
+            <div>
+                <h3>Misión</h3>
+                <p>Convertirnos en un líder en el cuidado animal, promoviendo una cultura de respeto y compasión hacia
+                    todos los
+                    seres vivos, y educando a la comunidad sobre la importancia de la salud animal.
+                </p>
+                <img src="https://png.pngtree.com/png-clipart/20230922/original/pngtree-flag-on-mountain-icon-wining-top-pictogram-vector-png-image_12649683.png"
+                    alt="Mision">
+            </div>
+        </div>
+    </section>
+    <ion-icon name="caret-up-circle-outline" id="botonarriba"></ion-icon>>
+    <script>
+        let caja = document.getElementById("botonarriba");
+        caja.addEventListener("click", function () {
+            document.documentElement.scrollTop = 0;
+        })
+
+        window.addEventListener("scroll", function () {
+            if (document.documentElement.scrollTop > 0) {
+                caja.style.display = "flex"
+            } else {
+                caja.style.display = "none"
+            }
+        })
+    </script>
+    <footer>
+        <div class="redesSociales" id="redesSociales">
+            <p>Visitanos en nuestras redes sociales</p>
+            <a href="https://es-la.facebook.com/login/device-based/regular/login/"><ion-icon
+                    name="logo-facebook"></ion-icon></a>
+            <a href="https://www.instagram.com/accounts/login/?next=%2Fhaoyii%2F&source=private_profile&locale=es_ES"><ion-icon
+                    name="logo-instagram"></ion-icon></a>
+            <a href="https://www.youtube.com"><ion-icon name="logo-youtube"></ion-icon></a>
+            <p>Diseñado por Vetipets - Todos los derechos reservados</p>
+        </div>
+        <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+        </div>
+    </footer>
+</body>
+
+</html>

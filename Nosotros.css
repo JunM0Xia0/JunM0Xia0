@@ -1,0 +1,203 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url("https://st2.depositphotos.com/1106005/8379/i/450/depositphotos_83799084-stock-photo-black-and-white-doggy-tile.jpg");
+
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/*logo principal y Navegacion*/
+div.navegacion {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    z-index: 20;
+    opacity: 0.9;
+}
+
+div.menu {
+    display: flex;
+    /* background-color: violet; */
+    width: 90%;
+    justify-content: space-between;
+}
+
+div.menuIzquierdo {
+    /* background-color: aqua; */
+    width: 85%;
+    align-items: center;
+}
+
+div.menuDerecho {
+    /* background-color: chocolate; */
+    width: 20%;
+}
+
+
+Div ul.opcionesIzquierdo,
+ul.opcionesDerecho {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+}
+
+Div .opcionesIzquierdo li:hover,
+.opcionesDerecho li:hover {
+    transform: scale(1.1);
+}
+
+Div ul.opcionesIzquierdo li a,
+ul.opcionesDerecho li a {
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+    cursor: default;
+    transition: all 197ms ease;
+}
+
+Div .opcionesIzquierdo li a:hover,
+.opcionesDerecho li a:hover {
+    color: #ff0000;
+}
+
+div.logo {
+    width: 15%;
+    cursor: pointer;
+}
+
+div .logo img {
+    height: 60px;
+    width: auto;
+}
+
+div.fonsobre {
+    background-image: url(https://img.freepik.com/fotos-premium/mano-extiende-tocar-pata-perro-que-simboliza-conexion-companerismo-humanos-animales_1039005-14845.jpg);
+    height: 700px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.subtitulo_name {
+    font-size: 100px;
+    position: relative;
+    top: 250px;
+    /* left: 220px; */
+    text-shadow: 0px 0px 10px rgb(0, 0, 0),
+        0px 0px 20px rgb(32, 31, 31),
+        0px 0px 30px #393737;
+}
+
+
+div.fondebajo {
+    background-image: url("https://nfnatcane.es/blog/wp-content/uploads/2021/11/veterinaria-revisando-a-un-perro.jpg");
+    height: 700px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.subtitulo {
+    font-size: 20px;
+    position: relative;
+    top: 180px;
+    left: 220px;
+    text-shadow: 0px 0px 10px rgb(0, 0, 0),
+        0px 0px 20px rgb(32, 31, 31),
+        0px 0px 30px #393737;
+    color: #ffffff;
+    max-width: 900px;
+    text-align: center;
+}
+
+ul.opcionesIzquierdo,
+ul.opcionesDerecho {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+
+}
+
+/*Texto*/
+
+h1 {
+    margin-top: 15px;
+    text-align: center;
+    font-size: 50px;
+    color: #ffffff;
+    margin-bottom: 10px;
+    text-shadow: 0px 0px 10px rgb(0, 0, 0),
+        0px 0px 10px rgb(0, 0, 0);
+}
+
+div.division {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 5px;
+    background-color: white;
+    opacity: 0.9;
+}
+
+div.division div {
+    width: 50%;
+    padding: 10px;
+    position: relative;
+}
+
+div.division div h3 {
+    text-align: center;
+    font-size: 50px;
+}
+
+div.division div p {
+    text-align: center;
+    font-size: 20px;
+    color: black;
+}
+
+div.division div img {
+    width: 100%;
+}
+
+p {
+    color: #ffffff;
+    font-size: 15px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+/* Pie de página */
+div.redesSociales {
+    background-color: brown;
+    text-align: center;
+    padding: 30px;
+    margin-top: 30px;
+    border-radius: 20px 20px 0px 0px;
+}
+
+div.redesSociales a {
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    text-decoration: none;
+    margin: 50px;
+}
+
+#botonarriba {
+    width: 40px;
+    height: 40px;
+    color: white;
+    display: flex;
+    position: fixed;
+    bottom: 20px;
+    left: 1250px;
+    cursor: pointer;
+    border-radius: 50%;
+    opacity: 0.85;
+}
